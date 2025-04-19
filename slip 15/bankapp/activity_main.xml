@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:text="My Bank App"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnCheck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Balance" />
+
+    <Button
+        android:id="@+id/btnDeposit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deposit Money"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnWithdraw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Withdraw Money"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

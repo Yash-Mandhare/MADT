@@ -1,0 +1,60 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/inputText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your text" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="16dp">
+
+        <RadioButton
+            android:id="@+id/radioUpper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Uppercase" />
+
+        <RadioButton
+            android:id="@+id/radioLower"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lowercase" />
+
+        <RadioButton
+            android:id="@+id/radioLeft5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Left 5 characters" />
+
+        <RadioButton
+            android:id="@+id/radioRight5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Right 5 characters" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnOperate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Perform Operation"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Result will appear here"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp" />
+</LinearLayout>
