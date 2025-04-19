@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_factorial"
+        android:title="Find Factorial" />
+    <item
+        android:id="@+id/menu_sum_digits"
+        android:title="Find Sum of Digits" />
+</menu>
